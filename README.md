@@ -32,19 +32,6 @@ se respeten las reglas de negocio establecidas y considerando los días festivos
 
 El sistema está estructurado de la siguiente manera:
 
-src/
-├── domain/
-│   ├── FechaPago.java
-│   └── Festivos.java
-├── application/
-│   └── FechaPagoService.java
-├── infrastructure/
-│   └── Main.java
-└── ports/
-    └── FechaPagoRepository.java
-
-
-
 Dominio:
 FechaPago.java: Clase que representa la fecha de pago.
 Festivos.java: Clase que contiene los festivos y un método para verificar si una fecha es feriado.
@@ -74,7 +61,7 @@ Si la fecha de pago calculada ya ha pasado, ajusta al siguiente periodo de pago.
 Método esNoHabil: Comprueba si una fecha cae en un fin de semana o un festivo.
 
 
-### Comandos git utilizados para subir los proyectos al repositorio remoto.
+## Comandos git utilizados para subir los proyectos al repositorio remoto.
 
 git init para inicializar mi repositorio en local
 
